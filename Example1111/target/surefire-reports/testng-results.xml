@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-08T21:10:28 IST" name="Suite" finished-at="2022-02-08T21:12:36 IST" duration-ms="128246">
+    <groups>
+      <group name="secondary">
+        <method signature="TestScripts.alllevel()[pri:3, instance:abcd.TestScripts@4b6579e8]" name="alllevel" class="abcd.TestScripts"/>
+      </group> <!-- secondary -->
+      <group name="smoke">
+        <method signature="TestScripts.VerifyCourses()[pri:1, instance:abcd.TestScripts@4b6579e8]" name="VerifyCourses" class="abcd.TestScripts"/>
+      </group> <!-- smoke -->
+      <group name="Regression">
+        <method signature="TestScripts.Form()[pri:2, instance:abcd.TestScripts@4b6579e8]" name="Form" class="abcd.TestScripts"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test started-at="2022-02-08T21:10:28 IST" name="Test" finished-at="2022-02-08T21:12:36 IST" duration-ms="128246">
+      <class name="abcd.TestScripts">
+        <test-method is-config="true" signature="ExReport()[pri:0, instance:abcd.TestScripts@4b6579e8]" started-at="2022-02-08T21:10:28 IST" name="ExReport" finished-at="2022-02-08T21:10:28 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExReport -->
+        <test-method is-config="true" signature="OpenBrowser()[pri:0, instance:abcd.TestScripts@4b6579e8]" started-at="2022-02-08T21:10:28 IST" name="OpenBrowser" finished-at="2022-02-08T21:10:34 IST" duration-ms="5929" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method signature="VerifyCourses()[pri:1, instance:abcd.TestScripts@4b6579e8]" started-at="2022-02-08T21:10:34 IST" name="VerifyCourses" finished-at="2022-02-08T21:11:24 IST" duration-ms="49758" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyCourses -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:abcd.TestScripts@4b6579e8]" started-at="2022-02-08T21:11:24 IST" name="closeBrowser" finished-at="2022-02-08T21:11:25 IST" duration-ms="766" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="OpenBrowser()[pri:0, instance:abcd.TestScripts@4b6579e8]" started-at="2022-02-08T21:11:25 IST" name="OpenBrowser" finished-at="2022-02-08T21:11:27 IST" duration-ms="2297" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method signature="Form()[pri:2, instance:abcd.TestScripts@4b6579e8]" started-at="2022-02-08T21:11:27 IST" name="Form" finished-at="2022-02-08T21:11:53 IST" duration-ms="26596" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Form -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:abcd.TestScripts@4b6579e8]" started-at="2022-02-08T21:11:53 IST" name="closeBrowser" finished-at="2022-02-08T21:11:54 IST" duration-ms="986" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="OpenBrowser()[pri:0, instance:abcd.TestScripts@4b6579e8]" started-at="2022-02-08T21:11:54 IST" name="OpenBrowser" finished-at="2022-02-08T21:11:56 IST" duration-ms="1774" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method signature="alllevel()[pri:3, instance:abcd.TestScripts@4b6579e8]" started-at="2022-02-08T21:11:56 IST" name="alllevel" finished-at="2022-02-08T21:12:35 IST" duration-ms="38567" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- alllevel -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:abcd.TestScripts@4b6579e8]" started-at="2022-02-08T21:12:35 IST" name="closeBrowser" finished-at="2022-02-08T21:12:36 IST" duration-ms="813" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:abcd.TestScripts@4b6579e8]" started-at="2022-02-08T21:12:36 IST" name="endReport" finished-at="2022-02-08T21:12:36 IST" duration-ms="704" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- abcd.TestScripts -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
